@@ -1,17 +1,4 @@
-.heroes-component {
-    width: 20rem;
-    border: 1px solid red;
-}
-
-.heroes-list {
-    list-style: none;
-}
-
 .heroes-list li span:hover {
     cursor: pointer;
     background-color: #ddd;
-}
-
-.selected {
-    color: red;
 }
