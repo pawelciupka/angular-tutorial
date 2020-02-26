@@ -5,6 +5,12 @@
             <a routerLink="/detail/{{hero.id}}">
                 <span><strong>{{hero.id}}</strong> {{hero.name}}</span>
             </a>
+            <button (click)="removeHero(hero)">X</button>
         </li>
     </ul>
+</div>
+<div>
+    <label>Hero Name</label>
+    <input #heroName/>
+    <button (click)="createHero(heroName.value)">Create new hero</button>
 </div>
